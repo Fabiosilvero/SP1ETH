@@ -10,12 +10,14 @@ Must be used with the lastest version of Swiss as of 1788 in order to use the in
 
 Must be ordered from fab such as jlcpcb with 1.2mm thickness with ENIG surface finish
 
-
 I used 10CM Female to Male dupont wires to connect the ENC28J60 Mini to the pcb but regular wires can be directly soldered to the pcb and ENC28J60 as well, make sure to follow the pinout below.
 
 I also removed the little black retaining plastic on the ENC28J60 in order to push the dupont connectors closer to the pcb to allow more clearance when closing the case together but you can bend the pins some as I did in the images to help with the 2 case halves closing better.
 
-If using the 10Pin IDC cable instead of dupont wires there's no need to remove the black retaining plastic on the module as the IDC connector is short enough to close the 2 case halves together.
+If using the 10Pin IDC cable instead of dupont wires there's no need to remove the black retaining plastic on the module as the IDC connector is short enough to close the 2 case halves together. But you'll need to remove the top cable loop retainer to make it fit flush inside when you close the two halves.
+
+![Cutout zone](https://github.com/user-attachments/assets/28564375-3174-4c51-b3d1-4eb1d7f0405a)
+![Cut](https://github.com/user-attachments/assets/ad711240-944e-4bce-bb00-2f2aaa6473a7)
 
 The case is designed to just snap together without any hardware, printed on an FDM 3D printer in something stronger than PLA, I've used PLA+ as its less brittle.
 
@@ -24,7 +26,7 @@ The case is designed to just snap together without any hardware, printed on an F
 | Item | Source |
 | --- | --- |
 | ENC28J60 Mini | https://www.aliexpress.us/item/2255800100119709.html |
-| 10CM Dupont Female to Male Wires or 10Pin female IDC cable | Amazon/Aliexpress |
+| 10CM Dupont Female to Male Wires or 10Pin female IDC cable | Amazon/[Aliexpress](https://aliexpress.com/item/1005001840002606.html) |
 | 1.2MM PCB | JLCPCB/Fab House |
 | Case Shell | 3D Printed |
 | Optional 20x6x2mm Oval Rubber Foot | https://www.aliexpress.us/item/3256807864916472.html |
